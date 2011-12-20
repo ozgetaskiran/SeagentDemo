@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'ISO-8859-1' ?>
+<rdf:RDF xmlns:rdf = 'http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:rdfs = 'http://www.w3.org/2000/01/rdf-schema#' xmlns:xsd = 'http://www.w3.org/2001/XMLSchema#' xmlns:owl = 'http://www.w3.org/2002/07/owl#' xmlns = 'seagent://seagent.ege.edu.tr/organization/HelloWorldOrganization.owl#' xml:base = 'seagent://seagent.ege.edu.tr/organization/HelloWorldOrganization.owl' xmlns:organization = 'http://etmen.ege.edu.tr/etmen/ontologies/organization.owl#'>
+  <owl:Ontology rdf:about = 'seagent://seagent.ege.edu.tr/organization/HelloWorldOrganization.owl'>
+    <owl:imports rdf:resource = 'http://etmen.ege.edu.tr/etmen/ontologies/organization.owl#'/>
+  </owl:Ontology>
+  <owl:Ontology rdf:about = 'organization'/>
+  <organization:Role rdf:ID = 'HelloWorldRole'>
+    <organization:Role.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>HelloWorldRole</organization:Role.name>
+    <organization:Role.goals rdf:resource = '#SayHelloWorldGoal'/>
+  </organization:Role>
+  <organization:PerformGoal rdf:ID = 'SayHelloWorldGoal'>
+    <organization:Goal.name rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>SayHelloWorldGoal</organization:Goal.name>
+  </organization:PerformGoal>
+  <organization:Plan rdf:ID = 'SayHelloWorldGoal_BHSayHelloWorld'>
+    <organization:Plan.goal rdf:resource = '#SayHelloWorldGoal'/>
+    <organization:Plan.task rdf:datatype = 'http://www.w3.org/2001/XMLSchema#string'>BHSayHelloWorld</organization:Plan.task>
+  </organization:Plan>
+</rdf:RDF>

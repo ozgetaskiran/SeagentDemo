@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:htn="http://etmen.ege.edu.tr/etmen/ontologies/htn.owl" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:organization="http://etmen.ege.edu.tr/ontologies/organization.owl" xsi:schemaLocation="http://etmen.ege.edu.tr/etmen/ontologies/htn.owl http://seagent.ege.edu.tr/psm.ecore#//htn http://etmen.ege.edu.tr/ontologies/organization.owl http://seagent.ege.edu.tr/psm.ecore#//organization" xmi:id="_OgvHISsaEeGm-tkZ8B749g" type="OrganizationDiagram" name="HelloWorld.org_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_cEjmkSscEeGNdPdPs5h7pA" type="2001" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cEn4ACscEeGNdPdPs5h7pA" type="5001"/>
+    <element xmi:type="organization:Role" href="../HelloWorld.seagent#//@roles.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cEjmkiscEeGNdPdPs5h7pA" x="346" y="42"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hH1TMCscEeGNdPdPs5h7pA" type="2005" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hH2hUCscEeGNdPdPs5h7pA" type="5007"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hH6LsCscEeGNdPdPs5h7pA" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hH6LsSscEeGNdPdPs5h7pA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hH6LsiscEeGNdPdPs5h7pA"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hH6ywCscEeGNdPdPs5h7pA" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hH6ywSscEeGNdPdPs5h7pA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hH6ywiscEeGNdPdPs5h7pA"/>
+    </children>
+    <element xmi:type="organization:PerformGoal" href="../HelloWorld.seagent#//@goals.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hH1TMSscEeGNdPdPs5h7pA" x="336" y="144"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_zPYAACsfEeGNdPdPs5h7pA" type="2007" fontName="Segoe UI">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zPYnECsfEeGNdPdPs5h7pA" type="5009"/>
+    <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_zPYAASsfEeGNdPdPs5h7pA" hint="HTNDiagram">
+      <diagramLink xmi:type="notation:Diagram" href="../HelloWorldPlan.htn_diagram#/"/>
+    </styles>
+    <element xmi:type="htn:HTNDiagram" href="../HelloWorld.seagent#//@htnDiagrams.0"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zPYAAisfEeGNdPdPs5h7pA" x="348" y="252"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_OgvuMCsaEeGm-tkZ8B749g"/>
+  <element xmi:type="organization:Organization" href="../HelloWorld.seagent#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_p24moCsfEeGNdPdPs5h7pA" type="4005" source="_cEjmkSscEeGNdPdPs5h7pA" target="_hH1TMCscEeGNdPdPs5h7pA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_p25NsCsfEeGNdPdPs5h7pA" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p25NsSsfEeGNdPdPs5h7pA" points="[-4, 10, 0, -85]$[-5, 92, -1, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_p3viQCsfEeGNdPdPs5h7pA" id="(0.48760330578512395,0.07142857142857142)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_278_cCsfEeGNdPdPs5h7pA" type="4004" source="_hH1TMCscEeGNdPdPs5h7pA" target="_zPYAACsfEeGNdPdPs5h7pA">
+    <styles xmi:type="notation:FontStyle" xmi:id="_279mgCsfEeGNdPdPs5h7pA" fontName="Segoe UI"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_279mgSsfEeGNdPdPs5h7pA" points="[2, 21, -1, -86]$[12, 127, 9, 20]"/>
+  </edges>
+</notation:Diagram>
